@@ -6,3 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+package "alsa-lib" do
+	action [:install]
+end
