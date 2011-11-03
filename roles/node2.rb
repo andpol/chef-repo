@@ -1,5 +1,5 @@
 ###################
-name "node1"
+name "node2"
 description "This is node 2"
 run_list "recipe[ipchange]"
 
