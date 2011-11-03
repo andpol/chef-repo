@@ -7,4 +7,9 @@
 # All rights reserved - Do Not Redistribute
 #
 
-template "
+template "#{ENV['HOME']}/ip_configuration.txt" do
+  source "ifconfig.erb"
+  owner "#{ENV['USER']}"
+  group "#{ENV['HOME']}"
+  mode 0644
+end
